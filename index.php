@@ -12,6 +12,8 @@
         $is_email_valid = 'false';<br>
         echo is_bool($is_email_valid);<br><br>
 
+	<h1></h1>
+
         <!-- Datatype Check By Condition -->
         $is_email_valid = 'false';<br>
         $is_user = false;<br>
