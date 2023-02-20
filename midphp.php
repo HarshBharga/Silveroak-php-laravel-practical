@@ -141,7 +141,90 @@
             }
 
             echo $message;
+            ?><br><br>
+            <hr>
+            <!-- <h1 class="text-bold text-success">GIT</h1>
+            <h2>shorturl.at/aOY57</h2>
+            <pre><code>
+            git clone https://github.com/HarshBharga/Silveroak-php-laravel-practical.git<code></pre>
+             -->
+            <h1 class="text-bold text-success">For Loop</h1>
+            <pre><code>
+            for ($row=1; $row <= 10; $row++) { 
+                echo $row*(5);
+            }
+
+            </code></pre>
+            <h2 class="text-bold text-success">for Loop Result</h2>
+            <?php 
+                for ($row=1; $row <= 10; $row++) { 
+                    echo $row*(5).'<br>';
+                }
+                
+            ?><br><br>
+
+            <h1 class="text-bold text-success">While Loop</h1>
+            <pre><code>
+            $x = 6;
+            while($x <= 5) {
+                echo $x;
+                $x++;
+            }
             ?>
+            </code><pre>
+            <h2 class="text-bold text-success">While Result</h2>
+            <?php 
+            $x = 6;
+            while($x <= 5) {
+            echo $x.'<br>';
+            $x++;
+            }
+             ?>  
+             
+             <h1 class="text-bold text-success">Do While Loop</h1>
+             <pre><code>
+                $x = 1;
+                do {
+                    echo "The number is:". $x;
+                    $x++;
+                } while ($x <= 8);
+             </code></pre>
+             <h2 class="text-bold text-success">Do While Result</h2>
+             <?php
+                $x = 1;
+                do {
+                echo "The number is: $x <br>";
+                $x++;
+                } while ($x <= 8);
+                ?>
+                <h1 class="text-bold text-success">Break and Continue</h1>
+                <pre><code>
+                
+
+                Continue
+                for ($i = 0; $i < 10; $i++) {
+                    if ($i === 4) {
+                        continue;
+                    }
+                }
+
+                </code></pre>
+                <h1 class="text-bold text-success">Continue Result</h1>
+                <?php 
+                //   for ($i = 0; $i < 10; $i++) {
+                //       if ($i === 5) {
+                //           break;
+                //       }
+                //       echo "$i\n";
+                //   }
+  
+                  for ($i = 0; $i < 10; $i++) {
+                      if ($i === 4) {
+                          continue;
+                      }
+                      echo "$i\n";
+                    }
+                ?>
         </div>
     </div>
  </div> 
